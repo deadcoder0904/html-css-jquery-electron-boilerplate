@@ -1,5 +1,4 @@
-const electron = require('electron')
-const { app, BrowserWindow } = electron
+import electron , { app, BrowserWindow } from 'electron'
 
 let mainWindow = null
 

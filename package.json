@@ -2,7 +2,7 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate App made in Electron",
-  "main": "app.js",
+  "main": "bootstrapper.js",
   "author": "Akshay Kadam",
   "license": "MIT",
   "scripts": {
@@ -17,6 +17,8 @@
     "electron-prebuilt": "^1.4.5"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
     "electron": "^1.4.5"
   }
 }
