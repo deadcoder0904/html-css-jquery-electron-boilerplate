@@ -1,4 +1,4 @@
-# html-css-jquery-electron-boilerplate
+# html-css-jquery-electron-boilerplate (Only for Linux)
 
 ## Usage
 
