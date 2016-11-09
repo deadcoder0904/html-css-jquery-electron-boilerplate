@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate App made in Electron",
+  "main": "app.js",
+  "author": "Akshay Kadam",
+  "license": "MIT",
+  "scripts": {
+    "package": "asar pack MyApp-linux-x64/resources/app MyApp-linux-x64/resources/app.asar",
+    "start": "electron .",
+    "build": "electron-packager --prune . MyApp",
+    "ship": "yarn run build && yarn run package && rm -rf MyApp-linux-x64/resources/app"
+  },
+  "devDependencies": {
+    "asar": "^0.12.3",
+    "electron-packager": "^8.2.0",
+    "electron-prebuilt": "^1.4.5"
+  },
+  "dependencies": {
+    "electron": "^1.4.5"
+  }
+}
